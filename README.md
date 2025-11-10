@@ -1,26 +1,26 @@
-# 🧠 Image Classification Using CNN (CIFAR-10)
+#  Image Classification Using CNN (CIFAR-10)
 
-## 📘 Overview  
+## Overview  
 This project implements a **Convolutional Neural Network (CNN)** using TensorFlow/Keras to classify **CIFAR-10 images** into 10 categories (airplane, cat, ship, etc.).  
 The notebook also supports **predicting new images** from local files or Google Drive.
 
 ---
 
-## ⚙️ Model  
+## Model  
 - Convolutional + Pooling + Dropout layers  
 - Fully connected layers with **ReLU** and **Softmax**  
 - Trained with **Adam optimizer** and **categorical cross-entropy**
 
 ---
 
-## 🧪 Results  
+## Results  
 - Accuracy: ~75–85% (varies by hyperparameters)  
 - CNN outperforms MLP due to spatial feature extraction  
 - Hardest classes: *cat vs dog*, *deer vs horse*
 
 ---
 
-## 🧮 Predict New Image  
+## Predict New Image  
 ```python
 predict_new_image(model, 
   "https://drive.google.com/file/d/1MBEAeE0YGL5bop_NxejONVAaC52kXsP7/view?usp=sharing", 
@@ -30,7 +30,7 @@ Supports: Local files, URLs, or Google Drive links.
 
 ---
 
-## 📦 Requirements  
+## Requirements  
 ```bash
 pip install tensorflow numpy matplotlib pillow requests
 ```
