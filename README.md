@@ -37,7 +37,7 @@ pip install tensorflow numpy matplotlib pillow requests
 
 ---
 
-## 🚀 Run  
+## Run  
 1. Open **ImageClassificationUsingCNN.ipynb** in Colab/Jupyter  
 2. Run all cells to train and evaluate  
 3. Use `predict_new_image()` to test on custom images  
